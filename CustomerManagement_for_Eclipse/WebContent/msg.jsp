@@ -9,11 +9,16 @@
 <html>
 <head>
     <title>Title</title>
+    <style type="text/css">
+        body{
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 <h1 style="color:green;" align="center">${msg}</h1>
 <br/>
-<a href=<%=request.getAttribute("back")%>>"Go Back"</a>
+<a href="<%=request.getAttribute("back")%>" align="center">Go Back</a>
 
 </body>
 </html>
