@@ -8,3 +8,4 @@ create table t_customer(
 	email varchar(20),
 	description varchar(200)
 	);
+
